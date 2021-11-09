@@ -6,7 +6,8 @@
 }
 
 #box-1{
-    border: solid;
+    
+    border-left: solid 2px;
 }
 
 #box-2{
@@ -18,10 +19,15 @@
 }
 
 #box-4{
-    border: double;
+    border-left: solid;
+    border-top: dotted;
+    border-right: double;
+    border-bottom: dashed;
+
 }
 #box-5{
     border: solid 5px;
+    border-color: aqua yellow peru plum;
 }
 
 #box-6{
@@ -31,9 +37,11 @@
 
 #box-7{
     border: dotted 5px;
+    border-radius: 10px 25px 35px 55px;
 }
 
 #box-8{
 
     border: double 5px;
+    border-radius: 25px;
 }
